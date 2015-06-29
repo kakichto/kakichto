@@ -16,6 +16,8 @@
             <div class="post-content">
             {{ content }}
             </div>
+		{% include yanalytics.html %}
+		{% include ganalytics.html %}
             {% if page.comments %}
             <div id="disqus_thread">
                 <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
