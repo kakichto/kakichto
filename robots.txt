@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: README.md
+
+
+# sitemap
+Sitemap: http://www.kakichto.com/sitemap.xml
